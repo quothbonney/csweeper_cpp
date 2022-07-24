@@ -1,4 +1,4 @@
 all: board
 
-board: board.cpp
-	g++ -o board board.cpp
+board: main.cpp
+	g++ -o board main.cpp board.cpp state.cpp -lncurses
