@@ -1,4 +1,4 @@
-all: board
+all: mine 
 
-board: main.cpp
-	g++ -o board main.cpp board.cpp state.cpp -lncurses
+mine: main.cpp
+	g++ -o mine main.cpp board.cpp state.cpp -lncurses
